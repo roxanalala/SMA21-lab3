@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helloandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloAndroid">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+
+            android:name="intents.IntentFilterActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.example.IntentFilterActivity.LAUNCH" />
+                <data android:scheme="https"/>
+                <data android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="MSA.LAUNCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.example.IntentFilterActivity.LAUNCH" />
+
+                <data android:scheme="https" />
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="lifecycle.ActivityC"
+            android:exported="true" />
+        <activity
+            android:name="lifecycle.ActivityB"
+            android:exported="true" />
+        <activity
+            android:name="lifecycle.ActivityA"
+            android:exported="true" />
+        <activity
+
+            android:name="intents.MainIntentActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
