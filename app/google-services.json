@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "206544132488",
+    "project_id": "smart-wallet-3b5c7",
+    "storage_bucket": "smart-wallet-3b5c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206544132488:android:399d999e9184a1f523823d",
+        "android_client_info": {
+          "package_name": "com.upt.cti.smartwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206544132488-10b0gtj9oui47ushrh9d8uonudl08918.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBogXDoUaJcSVqtWRiLtD6oYz-8-zhnG9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206544132488-10b0gtj9oui47ushrh9d8uonudl08918.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
